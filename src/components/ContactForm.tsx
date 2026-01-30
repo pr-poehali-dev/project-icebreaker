@@ -33,7 +33,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="py-16 px-6 bg-background">
+    <section id="contact" className="py-16 px-6 bg-background">
       <div className="max-w-2xl mx-auto">
         <Card className="shadow-xl">
           <CardHeader className="text-center">

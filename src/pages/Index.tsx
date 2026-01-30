@@ -2,6 +2,8 @@ import ArcGalleryHero from "@/components/ArcGalleryHero";
 import PricingSection from "@/components/PricingSection";
 import PortfolioGallery from "@/components/PortfolioGallery";
 import ContactForm from "@/components/ContactForm";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   const images = [
@@ -52,7 +54,9 @@ const Index = () => {
   ];
 
   return (
-    <main className="relative min-h-screen bg-background">
+    <>
+      <Header />
+      <main className="relative min-h-screen bg-background">
       <ArcGalleryHero
         images={images}
         startAngle={20}
@@ -68,7 +72,9 @@ const Index = () => {
       <PortfolioGallery images={portfolioImages} />
       <PricingSection />
       <ContactForm />
-    </main>
+      </main>
+      <Footer />
+    </>
   );
 };
 
