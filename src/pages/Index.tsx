@@ -22,34 +22,24 @@ const Index = () => {
 
   const portfolioImages = [
     {
-      src: "/freepik__enhance__98192.png",
-      title: "Ванная комната с мозаикой",
-      description: "Укладка мозаики в санузле, площадь 15 м²"
+      src: "https://cdn.poehali.dev/projects/a5dbde5f-7795-47e4-a1d1-0ccad19c34b9/bucket/c7631ebe-7738-4bd4-83e7-bef2d0d2d721.jpg",
+      title: "Санузел премиум-класса",
+      description: "Мраморная плитка с золотыми светильниками"
     },
     {
-      src: "/freepik__a-closeup-shot-features-a-glossy-purple-crossshape__48873.png",
-      title: "Керамогранит на кухне",
-      description: "Керамогранит большого формата на полу кухни"
+      src: "https://cdn.poehali.dev/projects/a5dbde5f-7795-47e4-a1d1-0ccad19c34b9/bucket/7ec126e0-b13d-498e-bdf5-5131d9682c59.jpg",
+      title: "Современная ванная",
+      description: "Комбинация мрамора и тёмных акцентов"
     },
     {
-      src: "/freepik__the-style-is-3d-model-with-octane-render-volumetri__57555.png",
-      title: "Фартук из кафеля",
-      description: "Кухонный фартук из испанской плитки"
+      src: "https://cdn.poehali.dev/projects/a5dbde5f-7795-47e4-a1d1-0ccad19c34b9/bucket/09808c0a-3d34-4719-8c74-4097072879a6.jpg",
+      title: "Гостиная в классическом стиле",
+      description: "Мраморный пол с чёрными вставками"
     },
     {
-      src: "/eqirGoRIJPaIMgEUeliWpNxeFmI.jpg",
-      title: "Пол в коридоре",
-      description: "Укладка керамогранита под дерево"
-    },
-    {
-      src: "/slide.png",
-      title: "Ванная в современном стиле",
-      description: "Комбинация керамогранита и мозаики"
-    },
-    {
-      src: "/abstract-blue-gradient.webp",
-      title: "Санузел с декором",
-      description: "Плитка с декоративными вставками"
+      src: "https://cdn.poehali.dev/projects/a5dbde5f-7795-47e4-a1d1-0ccad19c34b9/bucket/bf37cb2c-4280-436e-af93-2b94193db3ec.jpg",
+      title: "Ванная с мраморной отделкой",
+      description: "Отдельностоящая ванна, золотая фурнитура"
     }
   ];
 
