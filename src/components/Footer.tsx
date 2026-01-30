@@ -19,11 +19,11 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Контакты</h3>
             <div className="space-y-3">
               <a 
-                href="tel:+79001234567" 
+                href="tel:+79539270707" 
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Icon name="Phone" className="w-4 h-4" />
-                <span>+7 (900) 123-45-67</span>
+                <span>+7 (953) 927-07-07</span>
               </a>
               <a 
                 href="mailto:info@example.com" 
@@ -43,7 +43,7 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Мы в соцсетях</h3>
             <div className="flex gap-4">
               <a 
-                href="https://wa.me/79001234567" 
+                href="https://wa.me/79539270707" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all flex items-center justify-center"

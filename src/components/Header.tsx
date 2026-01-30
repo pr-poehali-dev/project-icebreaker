@@ -22,11 +22,11 @@ const Header = () => {
         </nav>
 
         <a 
-          href="tel:+79001234567" 
+          href="tel:+79539270707" 
           className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
         >
           <Icon name="Phone" className="w-4 h-4" />
-          <span className="hidden sm:inline font-medium">+7 (900) 123-45-67</span>
+          <span className="hidden sm:inline font-medium">+7 (953) 927-07-07</span>
         </a>
       </div>
     </header>
