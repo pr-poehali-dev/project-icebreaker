@@ -1,5 +1,7 @@
 import ArcGalleryHero from "@/components/ArcGalleryHero";
 import PricingSection from "@/components/PricingSection";
+import PortfolioGallery from "@/components/PortfolioGallery";
+import ContactForm from "@/components/ContactForm";
 
 const Index = () => {
   const images = [
@@ -16,6 +18,39 @@ const Index = () => {
     "/hyperrealistic_commercial_product_photography_of_luxury_chrome_sunglasses_on_male_model_extreme_chi_fanguv2w9zx489lcivwa_2.png",
   ];
 
+  const portfolioImages = [
+    {
+      src: "/freepik__enhance__98192.png",
+      title: "Ванная комната с мозаикой",
+      description: "Укладка мозаики в санузле, площадь 15 м²"
+    },
+    {
+      src: "/freepik__a-closeup-shot-features-a-glossy-purple-crossshape__48873.png",
+      title: "Керамогранит на кухне",
+      description: "Керамогранит большого формата на полу кухни"
+    },
+    {
+      src: "/freepik__the-style-is-3d-model-with-octane-render-volumetri__57555.png",
+      title: "Фартук из кафеля",
+      description: "Кухонный фартук из испанской плитки"
+    },
+    {
+      src: "/eqirGoRIJPaIMgEUeliWpNxeFmI.jpg",
+      title: "Пол в коридоре",
+      description: "Укладка керамогранита под дерево"
+    },
+    {
+      src: "/slide.png",
+      title: "Ванная в современном стиле",
+      description: "Комбинация керамогранита и мозаики"
+    },
+    {
+      src: "/abstract-blue-gradient.webp",
+      title: "Санузел с декором",
+      description: "Плитка с декоративными вставками"
+    }
+  ];
+
   return (
     <main className="relative min-h-screen bg-background">
       <ArcGalleryHero
@@ -30,7 +65,9 @@ const Index = () => {
         cardSizeSm={80}
         className="pt-16 pb-16 md:pt-20 md:pb-20 lg:pt-24 lg:pb-24"
       />
+      <PortfolioGallery images={portfolioImages} />
       <PricingSection />
+      <ContactForm />
     </main>
   );
 };
